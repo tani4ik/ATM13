@@ -1,0 +1,15 @@
+{"level":"info","message":"Maximizing browser window","timestamp":"2019-3-3 20:58:36"}
+{"level":"info","message":"I open https://uk.burberry.com/ url","timestamp":"2019-3-3 20:58:37"}
+{"level":"info","message":"I click Login icon","timestamp":"2019-3-3 20:58:44"}
+{"level":"info","message":"Text of Login header with text SIGN IN/REGISTER should contain SIGN IN/REGISTER","timestamp":"2019-3-3 20:58:49"}
+{"level":"info","message":"I open https://uk.burberry.com/ url","timestamp":"2019-3-3 20:58:49"}
+{"level":"info","message":"I click Basket icon","timestamp":"2019-3-3 20:58:53"}
+{"level":"info","message":"Text of Basket header with text SHOPPING BAG should contain SHOPPING BAG","timestamp":"2019-3-3 20:58:56"}
+{"level":"info","message":"I open https://uk.burberry.com/ url","timestamp":"2019-3-3 20:58:56"}
+{"level":"info","message":"I wait until Menu is present","timestamp":"2019-3-3 20:58:59"}
+{"level":"info","message":"I click The trench coat","timestamp":"2019-3-3 20:58:59"}
+{"level":"info","message":"Page title should be The Heritage Trench | Burberry","timestamp":"2019-3-3 20:59:03"}
+{"level":"info","message":"Menu should be visible","timestamp":"2019-3-3 20:59:03"}
+{"level":"info","message":"Count of Menu items should be 6","timestamp":"2019-3-3 20:59:03"}
+{"level":"info","message":"Count of Pre-footer section should be 3","timestamp":"2019-3-3 20:59:03"}
+{"level":"info","message":"I wait 10 seconds","timestamp":"2019-3-3 20:59:03"}

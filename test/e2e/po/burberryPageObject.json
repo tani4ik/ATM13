@@ -1,0 +1,34 @@
+{
+    "Menu": {
+        "isCollection": false,
+        "selector": ".ta-central-nav-bar-container"
+    },
+    "The trench coat": {
+        "isCollection": false,
+        "selector": "a[href='/the-trench-coat/']"
+    },
+    "Menu items": {
+        "isCollection": true,
+        "selector": "ul.center-nav-bar li"
+    },
+    "Pre-footer section": {
+        "isCollection": true,
+        "selector": ".exit-gate-section > div"
+    },
+    "Login icon": {
+        "isCollection": false,
+        "selector": ".my-account-wrapper a"
+    },
+    "Basket icon": {
+        "isCollection": false,
+        "selector": ".ta-minibag-wrapper a"
+    },
+    "Login header": {
+        "isCollection": false,
+        "selector": "h1.page-banner-asset-title span"
+    },
+    "Basket header": {
+        "isCollection": false,
+        "selector": "h1.panel-title"
+    }
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Burberry",
+    "line": 2,
+    "id": "burberry",
+    "tags": [
+      {
+        "name": "@all",
+        "line": 1
+      }
+    ],
+    "uri": "test\\e2e\\features\\burberry.feature",
+    "elements": [
+      {
+        "id": "burberry;i-should-be-able-to-access-<>",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "I should be able to access <>",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@header_icons",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open \"https://uk.burberry.com/\" url",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\browserInteractions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7421
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click \"Login icon\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\mouseInteractions.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4781
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Text of \"Login header\" should contain \"SIGN IN/REGISTER\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\validationSteps\\validationSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "test\\e2e\\step_definitions\\hooks.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "burberry;i-should-be-able-to-access-<>",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "I should be able to access <>",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@header_icons",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open \"https://uk.burberry.com/\" url",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\browserInteractions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3610
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click \"Basket icon\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\mouseInteractions.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3494
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Text of \"Basket header\" should contain \"SHOPPING BAG\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\validationSteps\\validationSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "test\\e2e\\step_definitions\\hooks.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "burberry;user-can-navigate-through-main-menu",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User can navigate through main menu",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@menu",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I open \"https://uk.burberry.com/\" url",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\browserInteractions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2565
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I wait until \"Menu\" is present",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\waiters.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click \"The trench coat\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\mouseInteractions.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4552
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Page title should be \"The Heritage Trench | Burberry\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\validationSteps\\validationSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "\"Menu\" should be visible",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\validationSteps\\validationSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Count of \"Menu items\" should be \"6\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\validationSteps\\validationSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Count of \"Pre-footer section\" should be \"3\"",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\validationSteps\\validationSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I wait \"10\" seconds",
+            "match": {
+              "location": "test\\e2e\\step_definitions\\actionSteps\\browserInteractions.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10005
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "test\\e2e\\step_definitions\\hooks.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
