@@ -2,7 +2,6 @@
 let {Then, When, Given} = require('cucumber');
 const expect = require('chai').expect;
 const elementHelper = require('../utils/stepFunctions.js').getPageObjectElement;
-const stepFunctions = require('../utils/stepFunctions.js');
 const logger = require('../../config/loggerConfig.js').logger;
 
 Then(/^"([^"]*)" should( not)? be visible$/, async (alias, notArg) => {

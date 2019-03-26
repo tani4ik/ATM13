@@ -1,5 +1,5 @@
 "use strict";
-let {Then, When, Given} = require('cucumber');
+let {When} = require('cucumber');
 const highlightElement = require('../utils/stepFunctions.js').highlightElement;
 const logger = require('../../config/loggerConfig.js').logger;
 
@@ -11,4 +11,9 @@ When(/^I wait "([^"]*)" seconds$/, (waitTime) => {
 When(/^I open "([^"]*)" url$/, (url) => {
     logger.info(`I open ${url} url`);
     return browser.get(url);
+});
+
+When(/^I highlight "([^"]*)"$/, (alias) => {
+    logger.info(`I highlight ${alias}`);
+    return highlightElement(alias);
 });

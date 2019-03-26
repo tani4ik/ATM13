@@ -5,7 +5,7 @@
     },
     "The trench coat": {
         "isCollection": false,
-        "selector": "a[href='/the-trench-coat/']"
+        "selector": "a[href='/the-evolution-of-the-trench/']"
     },
     "Menu items": {
         "isCollection": true,

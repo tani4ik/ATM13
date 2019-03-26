@@ -1,0 +1,1 @@
+{"level":"error","message":"Error is: NoSuchElementError: No element found using locator: By(css selector, .ta-minibag-wrapper a)","timestamp":"2019-03-26T17:24:17.676Z"}
